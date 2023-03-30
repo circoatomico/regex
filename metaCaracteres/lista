@@ -1,0 +1,28 @@
+Metacaracteres - Representantes
+.      ponto         um caractere qualquer
+[]     conjunto      conjunto de caracteres permitidos
+[^]    conjunto negado            conjunto de caracteres proibidos
+
+
+
+Metacaracteres - Quantificadores
+
+?       opcional       zero ou um
+*       asterico       zero ou mais
++       mais           um ou mais
+{n,m}   chaves         de n até m
+
+
+
+Metacaracteres - Âncoras
+^      circunflexo      início de cada linha
+$      cifrão           Fim de linha
+\b     borda            início ou fim de cada palavra
+
+
+
+Metacaracteres - Outros
+\     Escape          Uso de Metacaracteres como literal
+|     ou              Operação de ou
+( )   grupo           Define um grupo
+\1...\q      retrovisor     Resgata grupos já definidos
