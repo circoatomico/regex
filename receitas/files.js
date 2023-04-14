@@ -10,7 +10,7 @@ const write = (nomeArquivo, conteudo) => {
     fs.mkdirSync(dirname)
   }
 
-  fs.writeSileSync(`${dirname}/${nomeArquivo}`, conteudo)
+  fs.writeFileSync(`${dirname}/${nomeArquivo}`, conteudo)
 }
 
 module.exports = { read, write }
